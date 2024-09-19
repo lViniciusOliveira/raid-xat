@@ -32,7 +32,7 @@ async function handleProxy(browser, proxy) {
             },
         });
         page = await context.newPage();
-        await page.goto('https://xat.com/content/web/R00188/box/embed.html?n=rhb');
+        await page.goto('https://xat.com/content/web/R00188/box/embed.html?n=aff');
         const title = await page.title();
 
         if (title !== 'xat') {
